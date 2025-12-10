@@ -1,0 +1,131 @@
+1.Please introduce yourself and share a brief overview of your experience in agile environments.
+2.Imagine your team consistently misses sprint commitments due to unforeseen technical challenges. What
+ steps would you take to realign the team and improve sprint outcomes?
+ 3. Can you describe your experience in managing incident resolution using service management tools like Jira or
+Service Now, and how that contributed to operational excellence?
+4.Considering your extensive experience with ETL tools like Informatica, how do you ensure data integrity and
+optimal system performance during data migrations and process updates?
+5.Imagine facing customer escalations due to recurring system issues. What steps would you take to manage
+both the technical resolution and customer expectations under pressure?
+6.You have worked extensively with Teradata and Azure Synapse. What challenges did you encounter during
+the migration from Teradata to Synapse, and how did you overcome them?
+7.Suppose you discover data discrepancies in the target system after a migration. What steps would you take to
+diagnose the issue, correct it, and prevent similar problems in future migrations?
+8.Consider a situation where multiple cross-functional teams are involved in a complex data migration project.
+How would you manage coordination and communication to address any unexpected challenges?
+9.Imagine you are managing a large-scale ETL migration project and encounter unexpected data inconsistencies mid-project.
+ How would you handle the situation to minimize impact and ensure timely delivery?
+ 10.Suppose a critical project faces delays due to unforeseen technical challenges along with mounting stakeholder pressure. 
+ How would you re-align your team and manage stakeholder communication to regain project momentum?
+
+
+
+ My name is  Gowtham, and I bring over 17 years of IT experience across various roles including production
+ support, data migration, business analysis, and team management. In my previous positions, I have worked in
+ agile environments where I was involved in agile ceremonies and actively supported the adoption of Scrum
+ practices. For instance, I have facilitated daily stand-ups, sprint planning, and retrospectives, ensuring that
+ the team remained aligned with the project goals. My experience also includes collaborating with business
+ stakeholders and technical teams to ensure that requirements are clearly understood and efficiently
+ delivered. I believe my background in both technical execution and agile project leadership equips me to drive
+ continuous improvement and foster collaboration within the team at UST.
+ 
+ 2.l Answer:
+ In this scenario, I would take a structured approach. First, I would hold one-on-one sessions with team
+ members to understand any individual challenges and gain insights into what specific technical hurdles are
+ occurring. This would be followed by a team meeting to discuss common issues and realign our sprint
+ commitments. Next, I would work with the team to break down large user stories into smaller, manageable
+ subtasks so that issues and potential risks become evident earlier in the sprint, leading to more accurate
+ estimates. I’d also encourage technical spikes where necessary to mitigate high-risk uncertainties early on.
+ Additionally, I would ensure that risk assessments are improved and that all tasks are clearly documented, so
+ the team and stakeholders are aligned. Lastly, I would incorporate regular retrospective sessions to discuss
+ what can be improved in both our planning and execution, and I would foster a culture of continuous learning
+ to address recurring technical challenges.
+
+3.I managed incident resolution through diligent use of service management tools like Jira
+and ServiceNow. My approach begins with early detection and accurate logging of incidents to ensure all
+relevant data such as timestamps, impacted systems, and service levels are captured. I then prioritize and
+categorize incidents based on their urgency and impact on operations. Throughout the incident lifecycle, I
+ensure clear communication and coordination among the support team, vendors, and other stakeholders to
+work towards a swift resolution. After the incident is resolved, I document the resolution steps and conduct a
+thorough root cause analysis, which includes updating knowledge base articles and implementing corrective
+actions to prevent recurrence. This structured methodology not only minimizes downtime but also
+contributes directly to operational excellence by improving our SLA adherence and overall service reliability.
+For example, in a previous project, this process enabled my team to reduce
+
+4,In data migrations and process updates, I ensure data integrity and optimize system performance by starting
+with comprehensive data profiling and validations. I first profile the source data using built-in functions in our
+ETL tool to understand its structure, quality, and any potential anomalies. Based on that, I establish data
+validation rules and checks that align with business requirements. This involves creating detailed
+source-to-target mapping documents and reconciliation queries to compare data counts and values at every
+stage of the migration. I also incorporate incremental loading strategies to reduce processing times and
+minimize system load, rather than relying solely on full loads. Additionally, I monitor the migration process in
+real-time and conduct periodic performance tuning by optimizing our mapping designs and adjusting
+resource allocations. This approach not only helps maintain data accuracy but also ensures that the system
+consistently meets performance benchmark targets while quickly addressing any discrepancies or
+performance bottlenecks.
+
+5.In the situation of customer escalations due to recurring system issues, I would first ensure a thorough
+understanding of the issue by gathering all the relevant details, including previous troubleshooting steps,
+impact on customers, and historical data related to the incident. I would communicate promptly with the
+customer by acknowledging the issue, apologizing for the inconvenience, and providing an estimated timeline
+for resolution. Simultaneously, I would coordinate with the technical team—using tools like ServiceNow or
+JIRA—to set up clear escalations, track incident progress, and ensure the right expertise is involved. I would
+document every step of the process for further analysis, carry out a root cause analysis once the issue is
+resolved, and then develop preventive measures to avoid future recurrences. Finally, I would follow up with
+the customer to confirm that the solution is working as expected and ensure continuous monitoring to
+prevent similar issues, all while keeping all stakeholders updated through regular status reports.
+
+ 6.During the migration from Teradata to Azure Synapse, we faced several key challenges. First, there were
+issues with incompatible datatypes and differences in SQL functions; certain Teradata-specific functions did
+not have direct equivalents in Synapse. To address this, we performed a thorough code review and rewrote
+the SQL scripts, replacing unsupported functions with appropriate Synapse alternatives, sometimes using
+workarounds like intermediate staging tables to bridge the gap. Secondly, performance and optimization were
+critical. We tackled this by creating temporary or intermediate tables to load data for ATL processes and
+performing extensive performance tuning, including query optimization and resource configuration
+adjustments. Additionally, data integrity was a major concern; we implemented robust validation
+processes—using checksums, data type comparisons, and dropouts where necessary—to ensure that no data
+was lost or corrupted during the migration. Overall, close collaboration with the QA team and continuous
+monitoring during the migration helped mitigate risks and ensured a smooth transition from Teradata to
+Synapse.
+7.A solid approach would be: 'Upon discovering data discrepancies post-migration, my first step would be to
+immediately restrict user access to prevent further data manipulation while I perform a thorough initial
+assessment. I would review logs and migration reports to identify specific failed transactions or missing data
+segments and compare source and target datasets using established SQL queries or checksum validations.
+Next, I would identify if the discrepancies are due to mapping errors, transformation logic mistakes, or data
+format issues. In the test environment, I would apply corrective measures, simulate the corrections, and
+ensure that the fixes restore data integrity. After validating the solution, I would update our migration process
+by strengthening data quality checkpoints, automating error logging, and implementing continuous
+monitoring to flag similar issues earlier. Finally, I would document the root cause, the actions taken, lessons
+learned, and ensure open communication with stakeholders to prevent future occurrences.' This answer
+outlines a clear, structured approach and emphasizes prevention measures, which aligns well with both the
+job requirements and my experience with projects involving ETL, data validations, and post-migration
+support.
+8.In a complex data migration project with multiple cross-functional teams, I would start by organizing a kickoff
+meeting to clearly define roles, responsibilities, and expectations for each team member. I would develop a
+detailed migration plan with timelines, key milestones, and potential risk areas, ensuring that each task is
+assigned and that everyone understands their part. I would establish a centralized communication platform
+for daily updates, status meetings, and quick resolution of issues. In addition, I’d implement structured
+check-ins and progress reviews, where unexpected challenges are immediately escalated using pre-defined
+risk mitigation and escalation paths. Continuous feedback loops through stand-up meetings, surveys, or
+direct communication with stakeholders would allow us to adapt the plan in real-time, ensuring that the
+project stays on track and that data integrity is maintained throughout the migration process.
+
+9.In managing a large-scale ETL migration project, if I encounter unexpected data inconsistencies,
+ I would first conduct an immediate impact assessment to understand the breadth and depth of the issue.
+ I would isolate the problem by reproducing it in a lower environment, which helps in determining the root cause.
+ Based on the findings, I would develop and implement a data cleansing strategy and reprocess the affected data. 
+ Throughout this process, I would maintain clear communication with stakeholders, keeping them informed about the issue and planned actions. 
+ Once the fix is validated in the lower environment through thorough testing and UAT, I would then deploy the solution in the production environment.
+ Additionally, I would document the findings and lessons learned to prevent future issues and improve the overall ETL process. This structured 
+ approach not only ensures timely delivery but also minimizes the risk of similar issues in the future.
+
+10.In a scenario where a critical project is delayed due to unforeseen technical challenges and increasing stakeholder pressure, I would begin by
+ reassessing the project status in collaboration with team leads. First, I would schedule an immediate team meeting to identify the root causes of 
+ the delay, re-evaluate the current timelines, and re-prioritize tasks based on critical path activities. I would facilitate a session to develop an 
+ updated, realistic project plan, outlining clear short-term milestones and contingency measures. Concurrently, I would communicate transparently
+ with stakeholders by acknowledging the challenges, presenting the revised plan, and setting clear expectations regarding new timelines and 
+ deliverables. I would set up regular status updates and feedback loops to ensure continuous alignment with both the team and stakeholders. 
+ Finally, I would identify any process improvements or technical adjustments needed, for instance, leveraging reusable components only if they
+ support the project timelines, ensuring that these adjustments do not detract from the main focus of clear communication and coordinated realignment.
+ 
+
